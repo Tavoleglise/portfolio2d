@@ -1,40 +1,6 @@
 import "./style.scss";
-// data objects 
-const contactList = [
-  {
-    contactPlataform: "linkedin",
-    link: "https://www.linkedin.com/in/gustavoleglise/",
-  },
-  { contactPlataform: "github", link: "https://github.com/Tavoleglise" },
-  {
-    contactPlataform: "tavoleglise@gmail.com",
-    link: "mailto:tavoleglise@gmail.com",
-  },
-];
-
-const activitiesList = [
-  { name: "freelancer", beginDate: "2022", endDate: "today" },
-  {
-    name: "Frontend web developer <span class='fade'>&</span> web designer <span class='fade'>at</span> parallaxink",
-    beginDate: "2019",
-    endDate: "2022",
-  },
-  {
-    name: "unity developer <span class='fade'>at</span> Vector3",
-    beginDate: "2016",
-    endDate: "2018",
-  },
-];
-
-const projectsList = [
-  {
-    name: "threejs",
-    projects: [
-      { name: "portfolio", link: "https://tavoleglise.vercel.app/" },
-      { name: "realistic mask", link: "https://realistic-mask.vercel.app/" },
-    ],
-  },
-];
+// data objects
+import { contactList, activitiesList, projectsList } from "./constants.js";
 
 //------------------------------------------------------------------------------
 // Get elements & generate inicial html
