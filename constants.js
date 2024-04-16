@@ -27,7 +27,7 @@ export const activitiesList = [
 
 export const projectsList = [
   {
-    name: "threejs",
+    name: "ReactJs & ThreeJs",
     projects: [
       { name: "leonora", link: "https://leonora.ai/" },
       { name: "laleo.com", link: "https://www.laleo.com/" },
